@@ -1,0 +1,44 @@
+name: FINAL
+channels:
+  - defaults
+  - conda-forge
+  - anaconda-fusion
+dependencies:
+  - numpy
+  - zarr
+  - cartopy
+  - nc-time-axis
+  - xarray
+  - distributed
+  - pandas
+  - matplotlib
+  - h5netcdf
+  - ipykernel
+  - ipywidgets
+  - dask
+  - h5py
+  - scipy
+  - netcdf-fortran
+  - nodejs
+  - numcodecs
+  - python
+  - jupyterlab
+  - matplotlib-inline
+  - netcdf4
+  - python-graphviz
+  - metpy
+  - cfgrib
+  - siphon
+  - ipympl
+  - datashader
+  - geoviews
+  - cmocean
+  - pytest
+  - pyresample
+  - nbdime
+  - fsspec
+  - setuptools
+  - build
+  - hatchling
+  - twine
+  - pip
