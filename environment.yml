@@ -1,11 +1,10 @@
-name: FINAL
+name: environment
 channels:
   - defaults
   - conda-forge
   - anaconda-fusion
 dependencies:
   - numpy
-  - zarr
   - cartopy
   - nc-time-axis
   - xarray
@@ -15,9 +14,6 @@ dependencies:
   - h5netcdf
   - ipykernel
   - ipywidgets
-  - dask
-  - h5py
-  - scipy
   - netcdf-fortran
   - nodejs
   - numcodecs
@@ -27,8 +23,8 @@ dependencies:
   - netcdf4
   - python-graphviz
   - metpy
-  - cfgrib
   - siphon
+  - scikit-learn
   - ipympl
   - datashader
   - geoviews
@@ -36,7 +32,15 @@ dependencies:
   - pytest
   - pyresample
   - nbdime
+  - gsw
+  - iris
   - fsspec
+  - altair
+  - vega_datasets
+  - plotnine
+  - scikit-image
+  - aospy
+  - geopandas
   - setuptools
   - build
   - hatchling
